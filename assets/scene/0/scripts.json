@@ -1,0 +1,86 @@
+[
+    {
+        "type": "menu",
+        "title": "Demo of Summer",
+        "background": "assets/scene/0/0.jpg",
+        "menu": [
+            {
+                "text": "开始游戏",
+                "action": "next"
+            },
+            {
+                "text": "关于游戏",
+                "action": "goto 7"
+            }
+        ]
+    },
+    {
+        "type": "dialog",
+        "background": null,
+        "content": [
+            "记得那个夏天，我和两个逗逼室友出去玩",
+            "我们有很多地方都不同，",
+            "但有一点是相同的，",
+            "我们都觉得这个世界太无聊了。",
+            "我们决定去做一些未曾做过的事，",
+            "那个夏天的故事，",
+            "就这样开始了。"
+        ]
+    },
+    {
+        "type": "dialog",
+        "background": "assets/scene/0/1.jpg",
+        "content": [
+            "这是我们的大学，",
+            "如实说，我从来没想过会来到这里",
+            "刚上高一的时候",
+            "我的成绩很差，",
+            "最差的时候，我是班上的倒数第三。",
+            "或许你猜到了，还有两个倒霉鬼总在我后边。",
+            "你说命运是不是很巧妙",
+            "我们竟然最后考到了同一所大学",
+            "传说中的…",
+            "不知名大学（😓）"
+        ]
+    },
+    {
+        "type": "dialog",
+        "background": "assets/scene/0/2.jpg",
+        "content": [
+            "这是我们三人的背影",
+            "他们就是我的逗逼室友。"
+        ]
+    },
+    {
+        "type": "dialog",
+        "background": "assets/scene/0/3.jpg",
+        "content": [
+            "我们学校的图书馆",
+            "很漂亮吧？"
+        ]
+    },
+    {
+        "type": "menu",
+        "title": "你喜欢我们的图书馆吗？",
+        "menu": [
+            {
+                "text": "喜欢",
+                "action": "next"
+            },
+            {
+                "text": "不喜欢",
+                "action": "goto 1"
+            }
+        ]
+    },
+    {
+        "type": "init",
+        "url": "assets/scene/1/scripts.json"
+    },
+    {
+        "type": "cover",
+        "title": "关于",
+        "description": "本 demo 仅为演示目的，所有图片归 286Studio 所有。",
+        "action": "goto 0"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "type": "cover",
+        "background": "assets/scene/1/0.jpg",
+        "title": "第二章",
+        "description": "命运的偶遇",
+        "action": "next"
+    },
+    {
+        "type": "menu",
+        "background": "assets/scene/1/1.jpg",
+        "title": "喜欢这个游戏吗？",
+        "menu": [
+            {
+                "text": "去<a href='https://github.com/yfwz100/story-game-in-vue'>我</a>点个赞吧！"
+            }
+        ]
+    }
+]

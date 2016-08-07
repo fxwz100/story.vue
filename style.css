@@ -1,0 +1,67 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+}
+body {
+  background-color: #ccc;
+  margin: 0;
+}
+@media (min-width: 800px) {
+  #story-frame {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 800px;
+    height: 600px;
+    margin-left: -400px;
+    margin-top: -300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #acacac;
+  }
+}
+.github {
+  position: fixed;
+  right: -70px;
+  bottom: 20px;
+  transform: rotate(-45deg);
+  background: orange;
+  width: 200px;
+  text-align: center;
+  padding: 0.5em;
+  border: 2px solid white;
+  z-index: 2;
+}
+.github a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 1s;
+  font-family: 'HanziPen SC', fantasy, sans-serif;
+}
+.github a:hover {
+  color: black;
+}
+@media (orientation: landscape) {
+  .note {
+    display: none;
+  }
+}
+@media (orientation: landscape) and (max-width: 800px) {
+  #story-frame {
+    height: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #story-frame {
+    width: 100%;
+  }
+}
+.note {
+  padding: 0.5em;
+  background-color: yellow;
+}
+#story-frame {
+  overflow: hidden;
+  background-color: #233;
+}
