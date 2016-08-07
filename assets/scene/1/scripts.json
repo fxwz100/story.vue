@@ -12,7 +12,7 @@
         "title": "喜欢这个游戏吗？",
         "menu": [
             {
-                "text": "去<a href='https://github.com/yfwz100/story-game-in-vue'>我</a>点个赞吧！"
+                "text": "去给<a href='https://github.com/yfwz100/story-game-in-vue'>我</a>点个赞吧！"
             }
         ]
     }
