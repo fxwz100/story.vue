@@ -3,8 +3,40 @@
         "type": "cover",
         "background": "assets/scene/1/0.jpg",
         "title": "第二章",
-        "description": "命运的偶遇",
-        "action": "next"
+        "description": "命运的偶遇"
+    },
+    {
+        "type": "dialog",
+        "background": "assets/scene/1/0.jpg",
+        "content": [
+            "这里是……怎么有钢琴？",
+            "原来不是图书馆啊。",
+            "不好意思，我也是新来的……"
+        ]
+    },
+    {
+        "type": "dialog",
+        "background": "assets/scene/1/1.jpg",
+        "content": [
+            "美女：你们在这里干什么？",
+            "美女：有什么可以帮助你的吗？",
+            "我……",
+            "请问图书馆怎么走？",
+            "哦不，这里是哪里？",
+            "美女：这里是学生活动中心呀~",
+            "啊？学生活动中心啊？",
+            "美女：看你是新来的吧？这里是全校学生的集中地。",
+            "美女：你们是要去图书馆吗？",
+            "是的。",
+            "美女：往左走就是了~",
+            "好的，谢谢啊！"
+        ]
+    },
+    {
+        "type": "dialog",
+        "content": [
+          "过了很久……"
+        ]
     },
     {
         "type": "menu",

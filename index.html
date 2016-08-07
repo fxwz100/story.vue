@@ -32,7 +32,8 @@
         
         <div class="dialog-wrap" v-if="script.type == 'dialog'" v-on:click="nextSubDialog">
           <div class="text">
-            <p class="animated" v-for="it in script.content" v-if="$index == subIdx" transition="fade">
+            <p class="animated" transition="fade"
+               v-for="it in script.content" v-if="$index == subIdx">
               {{ it }}
             </p>
           </div>
@@ -46,10 +47,13 @@
           </div>
         </div>
         
-        <div class="cover-wrap" v-if="script.type == 'cover'" v-on:click="menu(script.action)">
-          <div class="title">{{ script.title }}</div>
-          <div class="description">
-            {{ script.description }}
+        <div class="cover-wrap" v-if="script.type == 'cover'"
+             v-on:click="menu(script.action)">
+          <div class="cover-box">
+            <div class="title">{{ script.title }}</div>
+            <div class="description">
+              {{ script.description }}
+            </div>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ var app = new Vue({
         app.scripts = scripts;
         app.idx = 0;
         app.subIdx = 0;
-      }); 
+      });
     },
     next: function () {
       var nextFrame = this.scripts[this.idx + 1];
