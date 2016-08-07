@@ -8,7 +8,7 @@ Please visit http://yfwz100.github.io/story-game-in-vue for a demo.
 
 ## Customized yours?
 
-The demo has been shown the ability to build a full game as you can see. What you need to do is to write scripts like files on `assets/scene/*/scripts.json`. The script is based on JSON structure, it's a list of frame objects. In the frame object, there're several types:
+The demo has shown the ability to build a full game as you can see. What you need to do is to write scripts like files on `assets/scene/*/scripts.json`. The script is based on JSON structure, it's a list of frame objects. In the frame object, there're several types:
 
  - **menu** frame for different scene of option choices.
  - **dialog** frame for text-based dialog.
@@ -26,4 +26,4 @@ Program Author: Zhi.
 
 License: MIT License with exception for the assests used in the demo.
 
-The assets used in the demo is owned by [286Studio](www.286studio.com/).
+The assets used in the demo is owned by [286Studio](http://www.286studio.com/).
