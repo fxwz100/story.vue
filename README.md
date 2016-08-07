@@ -26,4 +26,4 @@ Program Author: Zhi.
 
 License: MIT License with exception for the assests used in the demo.
 
-The assets used in the demo is owned by [286Studio](www.286studio.com/).
+The assets used in the demo is owned by [286Studio](http://www.286studio.com/).
