@@ -18,7 +18,7 @@
         "type": "dialog",
         "background": null,
         "content": [
-            "记得那个夏天，我和两个逗逼室友出去玩",
+            "记得那个夏天，我和两个逗逼读同一个高中。",
             "我们有很多地方都不同，",
             "但有一点是相同的，",
             "我们都觉得这个世界太无聊了。",
@@ -65,17 +65,22 @@
         "menu": [
             {
                 "text": "喜欢",
-                "action": "next"
+                "action": "init assets/scene/1/scripts.json"
             },
             {
                 "text": "不喜欢",
-                "action": "goto 1"
+                "action": "next"
             }
         ]
     },
     {
-        "type": "init",
-        "url": "assets/scene/1/scripts.json"
+        "type": "dialog",
+        "content": [
+            "竟然不喜欢？",
+            "肯定是姿势不正确，",
+            "再来一遍吧（😅）"
+        ],
+        "action": "goto 1"
     },
     {
         "type": "cover",

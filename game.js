@@ -36,7 +36,7 @@ var app = new Vue({
       if (this.subIdx < this.current.content.length - 1) {
         this.subIdx++;
       } else {
-        this.next();
+        this.menu(this.current.action);
         this.subIdx = 0;
       }
     },
@@ -45,6 +45,9 @@ var app = new Vue({
         var params = cmd.split(' ');
         var method = params.shift();
         this[method].apply(this, params);
+      } else {
+        // default to next action.
+        this.next();
       }
     },
     goto: function (idx, subIdx) {
