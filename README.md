@@ -20,7 +20,7 @@ The **dialog** frame has a list-based property named `content` which contains th
 
 The **cover** frame has two property: the `title` and `description` which are the meaning of its name. The extra `action` property is defined like `action` defined in menu options.
 
-# About
+## About
 
 Program Author: Zhi.
 
